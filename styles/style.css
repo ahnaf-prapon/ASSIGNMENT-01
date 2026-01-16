@@ -15,8 +15,10 @@
 .header{
 
     background-color: white;
-    
-    
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 98px;
+    height: 750px;
 
 }
 
@@ -50,10 +52,10 @@ nav{
 
 }
 
-.btn{
+.btn1{
 
-    width: 164px;
-    height: 44px;
+    width: 251px;
+    height: 52px;
     background-color: #469165;
     color: white;
     font-weight: 600;
@@ -62,6 +64,74 @@ nav{
     border-radius: 4px;
     padding: 12px 16px 12px 16px;
     margin-right: 120px;
+    cursor: pointer;
 
 }
 
+.btn2{
+
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 16.5px 16px 16.5px 46px;
+    color: white;
+    background-color: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.header-button{
+
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.header-content{
+
+    padding: 115.5px;
+    align-items: center;
+
+}
+
+.button{
+
+    background-color: white;
+    color: #30B868;
+    border-radius: 1000px;
+    text-align: center;
+    padding: 8px 12px 8px 12px;
+    max-width: 229px;
+    margin: 0 auto;
+
+}
+
+.header-content h1{
+
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+
+}
+
+.header-content span{
+
+    color: #30B868;
+
+}
+
+.header-content p{
+
+    max-width: 1360px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+
+}
