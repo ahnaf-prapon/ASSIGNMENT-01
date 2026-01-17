@@ -202,6 +202,8 @@ nav{
 
     margin: 120px;
     display: flex;
+    gap: 60px;
+    align-items: center;
 
 }
 
@@ -232,5 +234,95 @@ nav{
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+
+}
+
+.earlyaccess-container{
+
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin: 2px 120px 120px 120px;
+
+}
+
+.earlyaccess-container h2{
+
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+
+}
+
+.earlyaccess-container p{
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+
+}
+
+.earlyaccessinfo button{
+
+    padding-bottom: 16px;
+    margin: 0 auto;
+
+}
+
+.earlyaccessinfo{
+
+    padding: 80px 40px 80px 40px;
+
+}
+
+.footer{
+
+    background-color: #001931;
+    border: 1px solid #001931;
+
+}
+
+.footer-nav{
+
+    max-width: 1360px;
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 80px;
+
+}
+
+.footer-nav hr{
+
+    margin-top: 80px;
+
+}
+
+.footer-social h5{
+
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+
+}
+
+.footer-nav p{
+
+    margin-top: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 
 }
